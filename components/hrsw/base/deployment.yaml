@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hrsw
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-bmdf-tenant/byoc-app-ihao/hrsw@sha256:4e1814b176a330e75538eb683cc4f0237996aba676a448d1b1b969c7fa000ce9
         name: my-java-quarkus
         ports:
         - containerPort: 8081
